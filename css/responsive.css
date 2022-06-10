@@ -42,27 +42,89 @@
 
     .hero_section-container {
         width: 95%;
+        display: flex;
+        flex-direction: column;
     }
 
+    .hero_section-container .hero_img-box {
+        width: 85%;
+    }
+    #beta-malt {
+        width: 225px;
+        top: 0;
+        left: 5rem;
+    }
+    #burger {
+        width: 300px;
+        right: 5rem;
+        top: 0;
+    }
     .hero_section-container .hero_detail-box {
         padding-bottom: 125px;
     }
-
+    .voucher-wrapper {
+        margin: 55px 10px auto!important;
+    }
     .contact_form-container {
         padding: 20px;
     }
-
+    .beta-subcopy {
+        color: #d91b00;
+        font-size: 20px;
+    }
     .contact_section input {
         width: 100%;
+    }
+    .great-taste {
+        width: 100%!important;
+        margin: 20px auto;
     }
 
     .contact_img-box {
         padding: 20px;
     }
+    .beta-merge{
+        margin-right: 0;
+    }
+    .beta-form {
+        margin-left: auto;
+        margin-right: 43px;
+    }
+    .beta-form h1 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .beta-form form {
+        width: 300px;
+    }
     .beta-wrapper {
-        background: #fff;
-        padding: 35px;
+        background: rgb(255 255 255 / 50%);
+        padding: 30px;
         border-radius: 30px;
+        margin-right: 40px;
+        position: relative;
+        z-index: 1;
+    }
+    #voucher_detail-box .beta-wrapper {
+        background: transparent;
+        padding: 30px;
+        border-radius: 30px;
+        margin-right: 0;
+        position: relative;
+        z-index: 1;
+    }
+    #voucher_detail-box .beta-copy {
+        font-size: 30px;
+    }
+    #voucher_detail-box {
+        position: relative;
+        right: 0;
+        top: 0;
+        background-image: linear-gradient(90deg, #c8c8d74d, #ffffff4d 40%);
+        padding: 0px;
+        margin: 0 auto 100px;
+        border-radius: 15px;
+        z-index: 0;
     }
     .footer_section{
         flex-direction: column;
