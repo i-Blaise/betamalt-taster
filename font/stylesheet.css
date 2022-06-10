@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Signika';
+    src: url('Signika-Regular.eot');
+    src: local('Signika Regular'), local('Signika-Regular'),
+        url('Signika-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Signika-Regular.woff2') format('woff2'),
+        url('Signika-Regular.woff') format('woff'),
+        url('Signika-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('Signika-Bold.eot');
+    src: local('Signika Bold'), local('Signika-Bold'),
+        url('Signika-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Signika-Bold.woff2') format('woff2'),
+        url('Signika-Bold.woff') format('woff'),
+        url('Signika-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('Signika-Light.eot');
+    src: local('Signika Light'), local('Signika-Light'),
+        url('Signika-Light.eot?#iefix') format('embedded-opentype'),
+        url('Signika-Light.woff2') format('woff2'),
+        url('Signika-Light.woff') format('woff'),
+        url('Signika-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('Signika-SemiBold.eot');
+    src: local('Signika SemiBold'), local('Signika-SemiBold'),
+        url('Signika-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Signika-SemiBold.woff2') format('woff2'),
+        url('Signika-SemiBold.woff') format('woff'),
+        url('Signika-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
