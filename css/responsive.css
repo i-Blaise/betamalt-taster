@@ -150,6 +150,22 @@
     .beta-merge{
         width: 100%;
     }
+    #review_wrapper {
+        margin: 30px 30px;
+    }
+    #leave-box {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .beta-leave_wrapper img {
+        width: 300px;
+    }
+    .beta-leave_wrapper {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    #review_wrapper .hero_img-box {
+        width: 90%;
 
 }
 
