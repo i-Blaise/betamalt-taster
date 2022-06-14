@@ -459,3 +459,32 @@ input, select {
   border-radius: 7.6px;
   border: 1px solid #000;
 }
+#review_wrapper {
+  margin: 30px 50px;
+}
+#review_wrapper .hero_img-box{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dual Flex Box Css */
+#leave-box{
+  display: flex;
+  align-items: center;
+}
+.beta-leave_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.beta-leave_wrapper img {
+  width: 350px;
+}
+.header {
+  width: 75%!important;
+}
